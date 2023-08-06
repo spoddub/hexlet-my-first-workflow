@@ -1,0 +1,19 @@
+name: Say Hello Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  say_hello_job:
+    name: Say Hello Job
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Run make command
+        run: |
+          make say-hello
