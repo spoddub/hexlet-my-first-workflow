@@ -1,2 +1,2 @@
 # hexlet-my-first-workflow
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/spoddub/hexlet-my-first-workflow/NameOfWorkflow)](https://github.com/spoddub/hexlet-my-first-workflow/actions)
+[![Say Hello Workflow](https://github.com/spoddub/hexlet-my-first-workflow/actions/workflows/say_hello_workflow.yml/badge.svg)](https://github.com/spoddub/hexlet-my-first-workflow/actions/workflows/say_hello_workflow.yml)
